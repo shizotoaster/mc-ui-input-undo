@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/shizotoaster/mc-ui-input-undo/issues"
+license = "GPL v3"
+
+[[mods]]
+modId = "uiinputundo"
+version = "${version}"
+displayName = "UI Input Undo (Redo)"
+authors = "Me!"
+description = '''
+A client-side Minecraft mod that allows you to undo and redo text in UI input fields.
+'''
+logoFile = "uiinputundo.png"
+
+[[mixins]]
+config = "uiinputundo-common.mixins.json"
+[[mixins]]
+config = "uiinputundo.mixins.json"
+
+[[dependencies.uiinputundo]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.2,)"
+ordering = "NONE"
+side = "BOTH"
