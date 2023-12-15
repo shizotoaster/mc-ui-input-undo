@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
 issueTrackerURL = "https://github.com/shizotoaster/mc-ui-input-undo/issues"
-license = "GPL v3"
+license = "LGPL v3"
 
 [[mods]]
 modId = "uiinputundo"
