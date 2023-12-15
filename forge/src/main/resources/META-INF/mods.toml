@@ -7,11 +7,12 @@ license = "GPL v3"
 modId = "uiinputundo"
 version = "${version}"
 displayName = "UI Input Undo (Redo)"
-authors = "Me!"
+authors = "thecsdev, shizotoaster"
 description = '''
 A client-side Minecraft mod that allows you to undo and redo text in UI input fields.
 '''
 logoFile = "uiinputundo.png"
+displayURL = "https://modrinth.com/mod/uiinputundo"
 
 [[dependencies.uiinputundo]]
 modId = "minecraft"
