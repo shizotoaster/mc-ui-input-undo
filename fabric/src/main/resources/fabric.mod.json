@@ -13,7 +13,7 @@
     "issues": "https://github.com/shizotoaster/mc-ui-input-undo/issues",
     "homepage": "https://modrinth.com/mod/uiinputundo"
   },
-  "license": "GPL v3",
+  "license": "LGPL v3",
   "icon": "uiinputundo.png",
   "environment": "*",
   "entrypoints": {
